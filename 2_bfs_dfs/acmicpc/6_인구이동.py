@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/18428
+# https://www.acmicpc.net/problem/16234
 
 from itertools import combinations
 from copy import deepcopy

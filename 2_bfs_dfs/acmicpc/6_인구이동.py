@@ -30,33 +30,29 @@ def bfs(i, j, visited, graph, l, r, n):
                 and l <= abs(graph[x][y] - graph[next_x][next_y]) <= r:
                 queue.append((next_x, next_y, graph[next_x][next_y]))
                 visited.add((next_x, next_y))
-    return cord_lst, total, cnt
+
+    for i, j in cord_lst:
+        graph[i][j] = total//cnt
+
+    if cnt == 1:
+        return False
+    return True
 
 
 day_cnt = 0
 while True:
-    border_lst = []
-    average_lst = []
     visited = set()
-
     flag_no_change = True
     for i in range(n):
         for j in range(n):
             if (i, j) not in visited:
                 visited.add((i, j))
-                border_open_lst, total, cnt = bfs(i, j, visited, graph, l, r, n)
-                value = total // cnt
-                if cnt != 1:
+                if bfs(i, j, visited, graph, l, r, n):
                     flag_no_change = False
-                border_lst.append(border_open_lst)
-                average_lst.append(value)
 
     if flag_no_change:
         print(day_cnt)
         break
     else:
         day_cnt += 1
-        for border, value in zip(border_lst, average_lst):
-            for i, j in border:
-                graph[i][j] = value
 

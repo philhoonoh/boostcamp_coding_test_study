@@ -13,3 +13,4 @@ coding test study
 - 1_implementation/programmers/외벽점검
 - 2_bfs_dfs/programmers/7_블록 이동하기
 - 3_sorting/programmers/2_실패율.md
+- 4_binary_search/0_acmicpc/0_공유기 설치.py : Parametric Search 구현 방법 익히기

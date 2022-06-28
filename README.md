@@ -15,5 +15,6 @@ coding test study
 - 3_sorting/programmers/2_실패율.md
 - 4_binary_search/0_acmicpc/0_공유기 설치.py : Parametric Search 구현 방법 익히기
 - 5_dynamic_programming/0_acmicpc/1_퇴사.py : 점화식 거꾸로 세우기
-- 5_dynamic_programming/2_others/1_못생긴 수.py : 인덱스를 각각 사용해서 다음수를 차례로 구하는 법
+- 5_dynamic_programming/2_others/1_못생긴 수.py : 인덱스를 각각 사용해서 다음번지를 차례로 구하는 법
 - 5_dynamic_programming/2_others/2_편집 거리.py : Levenshtein Distance
+- 6_shortest_path/2_others/1_화성 탐사.py : 다익스트라 알고리즘 adjacent matrix 로 구현 (보통 adjacent lst), NXN 노드 구현

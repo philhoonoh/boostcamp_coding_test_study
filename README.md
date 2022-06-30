@@ -17,7 +17,7 @@ coding test study
 - 5_dynamic_programming/0_acmicpc/1_퇴사.py : 점화식 거꾸로 세우기
 - 5_dynamic_programming/2_others/1_못생긴 수.py : 인덱스를 각각 사용해서 다음번지를 차례로 구하는 법
 - 5_dynamic_programming/2_others/2_편집 거리.py : Levenshtein Distance
-- 6_shortest_path/2_others/1_화성 탐사.py : 다익스트라 알고리즘 adjacent matrix 로 구현 (보통 adjacent lst), NXN 노드 구현
+- 6_shortest_path/2_others/1_화성 탐사.py : 다익스트라 알고리즘 adjacent matrix 사용 (보통 adjacent lst), NXN 노드 구현
 - 7_graph_algorithms/2_others/1_탑승구.py : 문제에서 서로소 집합 알고리즘를 유추 가능해야함
 - 7_graph_algorithms/0_acmicpc/0_행성 터널.py : 모든 노들 검사하면 메모리 초과
-- 7_graph_algorithms/0_acmicpc/1_최종 순위.py : 위상정렬 알고리즘 + 인접 행렬 사용
+- 7_graph_algorithms/0_acmicpc/1_최종 순위.py : 위상정렬 알고리즘 + adjacent matrix 인접 행렬 사용
